@@ -16,3 +16,12 @@ console.log(document.domain);
 
 // Ejercicio 5
 console.log(document.querySelectorAll(".img-fixed.img-sprite"));
+
+// Ejercicio 6
+const imgs = document.querySelectorAll("img");
+imgs.forEach((pokemon) => {
+    pokemon.setAttribute(
+        "src",
+        "https://media.giphy.com/media/2v170e71aanfi/giphy.gif"
+    );
+});
