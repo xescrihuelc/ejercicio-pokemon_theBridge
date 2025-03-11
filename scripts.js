@@ -13,3 +13,6 @@ console.log(document.URL);
 
 // Ejercicio 4
 console.log(document.domain);
+
+// Ejercicio 5
+console.log(document.querySelectorAll(".img-fixed.img-sprite"));
