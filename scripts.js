@@ -13,12 +13,14 @@ console.log(document.URL);
 
 // Ejercicio 4
 console.log(document.domain);
+/* O */
+console.log(window.location.hostname);
 
 // Ejercicio 5
-console.log(document.querySelectorAll(".img-fixed.img-sprite"));
+const imgs = document.querySelectorAll("img");
+console.log(imgs);
 
 // Ejercicio 6
-const imgs = document.querySelectorAll("img");
 imgs.forEach((pokemon) => {
     pokemon.setAttribute(
         "src",
