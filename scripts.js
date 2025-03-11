@@ -29,8 +29,6 @@ imgs.forEach((pokemon) => {
 // Ejercicio 7
 const pokemons = document.querySelectorAll(".infocard");
 pokemons.forEach((pokemon) => {
-    console.log(pokemon);
-
     if (pokemon.innerHTML.includes("Flying")) {
         pokemon.style.backgroundColor = "#b6ecc3";
     }
